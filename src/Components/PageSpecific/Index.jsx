@@ -9,7 +9,7 @@ import Login from "../Essentials/Login";
 import Button from "../Essentials/Button";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../css/index.css";
+import "../../Components/css/Index.css";
 
 const typewriterStyles = {
     '@keyframes blink': {
