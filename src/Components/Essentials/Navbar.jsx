@@ -73,8 +73,12 @@ const Navbar = (props) => {
             </nav>
 
             {loginOpen && (
-                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-                    <div className="bg-white rounded-lg p-6 shadow-lg relative w-full max-w-md">
+                <div className="fixed inset-0 flex items-center justify-center z-50">
+                    <div 
+                        className="absolute inset-0 bg-black transition-opacity duration-300"
+                        style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}
+                    ></div>
+                    <div className="bg-white rounded-lg p-6 shadow-lg relative w-full max-w-md transform transition-all duration-300 ease-in-out scale-100 opacity-100">
                         <Login onClose={() => setLoginOpen(false)} />
                     </div>
                 </div>
