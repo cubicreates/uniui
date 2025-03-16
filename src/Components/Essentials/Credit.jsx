@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone, faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faTwitter, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
-import './assets/fonts.css';
 
 export default function Credit() {
     const [isQuickLinksOpen, setIsQuickLinksOpen] = useState(false);
