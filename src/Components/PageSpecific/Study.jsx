@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const StudyComponent = () => {
     const [activeTab, setActiveTab] = useState("Lectures");
 
-    const tabs = ["Videos", "PDF", "DPP"];
+    const tabs = ["Videos", "PDFs", "Projects"];
 
     return (
         <div className="p-4 sm:p-6 md:p-8">
